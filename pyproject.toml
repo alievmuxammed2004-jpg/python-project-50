@@ -1,0 +1,18 @@
+[project]
+name = "hexlet-code"
+version = "0.1.0"
+description = "gendiff - compares two configuration files"
+authors = [
+  {name = "alievmuxammed2004-jpg", email = "alievmuxammed2004@gmail.com"}
+]
+requires-python = ">=3.9"
+dependencies = [
+  "PyYAML>=6.0.3,<7.0.0"
+]
+
+[project.scripts]
+gendiff = "gendiff.scripts.gendiff:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
