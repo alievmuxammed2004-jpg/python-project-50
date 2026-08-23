@@ -1,6 +1,8 @@
 README.md
 pyproject.toml
 gendiff/__init__.py
+gendiff/generate_diff.py
+gendiff/scripts/__init__.py
 gendiff/scripts/gendiff.py
 hexlet_code.egg-info/PKG-INFO
 hexlet_code.egg-info/SOURCES.txt

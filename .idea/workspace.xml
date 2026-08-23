@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e65bbd7-8990-4aab-954e-1300bdc7d4a6" name="Changes" comment="" />
+    <list default="true" id="9e65bbd7-8990-4aab-954e-1300bdc7d4a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/JSON_file.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON_file2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gendiff/generate_diff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gendiff/scripts/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_21_2026_8_12_PM.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_21_2026_8_12_PM/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gendiff/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gendiff/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gendiff/scripts/gendiff.py" beforeDir="false" afterPath="$PROJECT_DIR$/gendiff/scripts/gendiff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_code.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_code.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +33,7 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -30,7 +44,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/alievmuxammed2004-jpg/python-project-50&quot;,
-    &quot;accountId&quot;: &quot;40a0ab27-d05d-4aca-b000-3da8a5d57a88&quot;
+    &quot;accountId&quot;: &quot;4ab72cb7-6192-4124-bdd4-43317472d4ac&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -54,7 +68,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/OneDrive/Documents/Downloads/python-project-50&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   },
@@ -68,8 +82,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\OneDrive\Documents\Downloads\python-project-50\python-project-lvl2" />
+      <recent name="C:\Users\USER\OneDrive\Documents\Downloads\python-project-50\gendiff\scripts" />
       <recent name="C:\Users\USER\OneDrive\Documents\Downloads\python-project-50" />
+      <recent name="C:\Users\USER\OneDrive\Documents\Downloads\python-project-50\python-project-lvl2" />
       <recent name="C:\Users\USER\OneDrive\Documents\Downloads\python-project-50\hexlet-code" />
     </key>
   </component>
@@ -187,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787332675761</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new file">
+      <option name="closed" value="true" />
+      <created>1787507251580</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1787507251580</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
