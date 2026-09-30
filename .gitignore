@@ -1,0 +1,5 @@
+build:
+	uv build
+
+package-install:
+	uv tool install --reinstall dist/*.whl

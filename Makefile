@@ -8,3 +8,9 @@ lint:
 	poetry run flake8 gendiff
 
 .PHONY: install test lint
+
+build:
+	uv build
+
+package-install:
+	uv tool install --reinstall dist/*.whl

@@ -1,7 +1,10 @@
 README.md
 pyproject.toml
 gendiff/__init__.py
-gendiff/generate_diff.py
+gendiff/diff.py
+gendiff/parser.py
+gendiff/formatters/__init__.py
+gendiff/formatters/stylish.py
 gendiff/scripts/__init__.py
 gendiff/scripts/gendiff.py
 hexlet_code.egg-info/PKG-INFO
@@ -10,3 +13,5 @@ hexlet_code.egg-info/dependency_links.txt
 hexlet_code.egg-info/entry_points.txt
 hexlet_code.egg-info/requires.txt
 hexlet_code.egg-info/top_level.txt
+tests/test_gendiff.py
+tests/test_paser.py

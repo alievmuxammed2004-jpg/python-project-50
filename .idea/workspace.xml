@@ -5,18 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e65bbd7-8990-4aab-954e-1300bdc7d4a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JSON_file.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSON_file2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gendiff/generate_diff.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gendiff/scripts/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_21_2026_8_12_PM.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_21_2026_8_12_PM/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/CACHEDIR.TAG" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/CACHEDIR.TAG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gendiff/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gendiff/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gendiff/diff.py" beforeDir="false" afterPath="$PROJECT_DIR$/gendiff/diff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gendiff/formatters/stylish.py" beforeDir="false" afterPath="$PROJECT_DIR$/gendiff/formatters/stylish.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gendiff/gendiff/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gendiff/generate_diff.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gendiff/scripts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gendiff/scripts/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gendiff/scripts/gendiff.py" beforeDir="false" afterPath="$PROJECT_DIR$/gendiff/scripts/gendiff.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hexlet_code.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_code.egg-info/SOURCES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_code.egg-info/dependency_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_code.egg-info/dependency_links.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_code.egg-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_code.egg-info/entry_points.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_code.egg-info/requires.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_code.egg-info/requires.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_code.egg-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_code.egg-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/expected_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/expected_file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/test_diff.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_gendiff.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_gendiff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_paser.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_paser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +55,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/alievmuxammed2004-jpg/python-project-50&quot;,
-    &quot;accountId&quot;: &quot;4ab72cb7-6192-4124-bdd4-43317472d4ac&quot;
+    &quot;url&quot;: &quot;https://github.com/alievmuxammed2004-jpg/python-project-50.git&quot;,
+    &quot;accountId&quot;: &quot;8b5dfec2-31cf-40c6-a1d1-a2829ea544db&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -69,8 +81,9 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/OneDrive/Documents/Downloads/python-project-50&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;PyConsoleConfigurable.Python Console&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
@@ -80,12 +93,27 @@
     ]
   }
 }</component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+      </console-settings>
+    </option>
+    <option name="myUseExistingConsole" value="true" />
+    <option name="myCommandQueueEnabled" value="true" />
+  </component>
+  <component name="PyDebuggerOptionsProvider">
+    <option name="mySaveCallSignatures" value="true" />
+    <option name="mySupportGeventDebugging" value="true" />
+    <option name="myDropIntoDebuggerOnFailedTests" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\OneDrive\Documents\Downloads\python-project-50\gendiff\scripts" />
-      <recent name="C:\Users\USER\OneDrive\Documents\Downloads\python-project-50" />
-      <recent name="C:\Users\USER\OneDrive\Documents\Downloads\python-project-50\python-project-lvl2" />
-      <recent name="C:\Users\USER\OneDrive\Documents\Downloads\python-project-50\hexlet-code" />
+      <recent name="C:\Users\god\PycharmProjects\python-project-50\tests\fixtures" />
+      <recent name="C:\Users\god\PycharmProjects\python-project-50\gendiff" />
+      <recent name="C:\Users\god\PycharmProjects\python-project-50\gendiff\scripts" />
+      <recent name="C:\Users\god\PycharmProjects\python-project-50\gendiff\gendiff" />
+      <recent name="C:\Users\god\PycharmProjects\python-project-50" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
@@ -158,7 +186,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-02acdf704d18-cbfc7b97e6b2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.28539.27" />
+        <option value="bundled-python-sdk-5781019d23a5-cbfc7b97e6b2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.28539.58" />
       </set>
     </attachedChunks>
   </component>
