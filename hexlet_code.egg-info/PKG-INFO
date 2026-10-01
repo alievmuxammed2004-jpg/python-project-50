@@ -4,4 +4,4 @@ Version: 0.1.0
 Summary: gendiff - compares two configuration files
 Author-email: alievmuxammed2004-jpg <alievmuxammed2004@gmail.com>
 Requires-Python: >=3.9
-Requires-Dist: PyYAML<7.0.0,>=6.0.3
+Requires-Dist: pyyaml<7.0.0,>=6.0.3

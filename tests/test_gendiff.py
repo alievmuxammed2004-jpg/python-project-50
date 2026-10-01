@@ -17,9 +17,12 @@ def read_expected(name):
     [
         ("file1.json", "file2.json", "expected_flat.txt"),
         ("file2.json", "file1.json", "expected_flat_reversed.txt"),
+        ("file1.yml", "file2.yml", "expected_flat.txt"),
+        ("file1.yml", "file2.yaml", "expected_flat.txt"),
+        ("file1.json", "file2.yml", "expected_flat.txt"),
     ],
 )
-def test_generate_diff_flat_json(first, second, expected):
+def test_generate_diff_flat(first, second, expected):
     result = generate_diff(TEST_DATA / first, TEST_DATA / second)
     assert result == read_expected(expected)
 

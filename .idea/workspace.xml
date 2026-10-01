@@ -5,21 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e65bbd7-8990-4aab-954e-1300bdc7d4a6" name="Changes" comment="new file">
-      <change afterPath="$PROJECT_DIR$/tests/test_cli.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_data/empty.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_data/expected_flat_reversed.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-project-50.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_data/file1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_data/file2.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_data/file2.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gendiff/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/gendiff/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_code.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_code.egg-info/PKG-INFO" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hexlet_code.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_code.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_code.egg-info/requires.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_code.egg-info/requires.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_data/expected_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_data/expected_flat.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_data/ile2.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_data/file2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_gendiff.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_gendiff.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_paser.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_parser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790864131558</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="new file">
+      <option name="closed" value="true" />
+      <created>1790866986575</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1790866986575</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -15,4 +15,4 @@ hexlet_code.egg-info/requires.txt
 hexlet_code.egg-info/top_level.txt
 tests/test_cli.py
 tests/test_gendiff.py
-tests/test_paser.py
+tests/test_parser.py
