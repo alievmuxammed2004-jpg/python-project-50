@@ -5,7 +5,6 @@ gendiff/diff.py
 gendiff/parser.py
 gendiff/formatters/__init__.py
 gendiff/formatters/stylish.py
-gendiff/gendiff/__init__.py
 gendiff/scripts/__init__.py
 gendiff/scripts/gendiff.py
 hexlet_code.egg-info/PKG-INFO

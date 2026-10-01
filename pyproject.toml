@@ -29,3 +29,15 @@ line-length = 80
 
 [tool.ruff.lint]
 select = ["E", "F", "I"]
+
+[dependency-groups]
+dev = [
+    "pytest-cov>=7.1.0",
+]
+
+[tool.coverage.run]
+source = ["gendiff"]
+
+[tool.coverage.report]
+fail_under = 80
+show_missing = true
