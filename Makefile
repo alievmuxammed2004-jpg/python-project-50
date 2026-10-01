@@ -1,13 +1,14 @@
 install:
-	poetry install
+	uv sync
 
 test:
-	poetry run pytest --cov=gendiff
+	uv run pytest
+
+test-coverage:
+	uv run pytest --cov=gendiff --cov-report=term-missing
 
 lint:
-	poetry run flake8 gendiff
-
-.PHONY: install test lint
+	uv run ruff check .
 
 build:
 	uv build

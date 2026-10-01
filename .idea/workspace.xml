@@ -5,18 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e65bbd7-8990-4aab-954e-1300bdc7d4a6" name="Changes" comment="new file">
+      <change afterPath="$PROJECT_DIR$/tests/test_cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_data/empty.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_data/expected_flat_reversed.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python-project-50.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/CACHEDIR.TAG" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/CACHEDIR.TAG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/pyvenv.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gendiff/gendiff/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_code.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_code.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hexlet_code.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_code.egg-info/SOURCES.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/expected_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_data/expected_file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/file1.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_data/file1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/ile2.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_data/ile2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_data/expected_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_data/expected_flat.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_data/ile2.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_data/file2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_gendiff.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_gendiff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_paser.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,28 +67,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for tests.fixtures.test_diff.test_build_diff_flat.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gendiff.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/OneDrive/Documents/Downloads/python-project-50&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;PyConsoleConfigurable.Python Console&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for tests.fixtures.test_diff.test_build_diff_flat.executor": "Run",
+    "Python.gendiff.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/USER/OneDrive/Documents/Downloads/python-project-50",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings is-module-sdk="true">
@@ -239,7 +242,23 @@
       <option name="project" value="LOCAL" />
       <updated>1790783474258</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new file">
+      <option name="closed" value="true" />
+      <created>1790863542789</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1790863542789</updated>
+    </task>
+    <task id="LOCAL-00008" summary="new file">
+      <option name="closed" value="true" />
+      <created>1790864131558</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1790864131558</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,6 +273,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="new file" />
     <option name="LAST_COMMIT_MESSAGE" value="new file" />
   </component>
