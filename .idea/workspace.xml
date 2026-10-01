@@ -4,31 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e65bbd7-8990-4aab-954e-1300bdc7d4a6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="9e65bbd7-8990-4aab-954e-1300bdc7d4a6" name="Changes" comment="new file">
+      <change beforePath="$PROJECT_DIR$/.idea/python-project-50.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/CACHEDIR.TAG" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/CACHEDIR.TAG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/pyvenv.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gendiff/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gendiff/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gendiff/diff.py" beforeDir="false" afterPath="$PROJECT_DIR$/gendiff/diff.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gendiff/formatters/stylish.py" beforeDir="false" afterPath="$PROJECT_DIR$/gendiff/formatters/stylish.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gendiff/gendiff/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gendiff/generate_diff.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gendiff/scripts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gendiff/scripts/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gendiff/scripts/gendiff.py" beforeDir="false" afterPath="$PROJECT_DIR$/gendiff/scripts/gendiff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_code.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_code.egg-info/PKG-INFO" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hexlet_code.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_code.egg-info/SOURCES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_code.egg-info/dependency_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_code.egg-info/dependency_links.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_code.egg-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_code.egg-info/entry_points.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_code.egg-info/requires.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_code.egg-info/requires.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexlet_code.egg-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_code.egg-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/expected_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/expected_file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/test_diff.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_gendiff.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_gendiff.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_paser.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_paser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/expected_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_data/expected_file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/file1.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_data/file1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/ile2.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_data/ile2.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +31,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Mukhammed &lt;alievmuxammed2004@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -238,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787507251580</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="new file">
+      <option name="closed" value="true" />
+      <created>1790783474258</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1790783474258</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
