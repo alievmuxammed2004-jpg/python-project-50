@@ -1,4 +1,15 @@
-def format_value(value):
+INDENT = 4
+SIGNS = {"added": "+", "removed": "-", "unchanged": " "}
+
+
+def format_value(value, depth):
+    if isinstance(value, dict):
+        lines = [
+            make_line(depth + 1, " ", key, item)
+            for key, item in value.items()
+        ]
+        closing = " " * (depth * INDENT) + "}"
+        return "\n".join(["{", *lines, closing])
     if value is True:
         return "true"
     if value is False:
@@ -8,18 +19,29 @@ def format_value(value):
     return str(value)
 
 
-def format_node(node):
+def make_line(depth, sign, key, value):
+    indent = " " * (depth * INDENT - 2)
+    return f"{indent}{sign} {key}: {format_value(value, depth)}"
+
+
+def render_node(node, depth):
     key = node["key"]
-    node_type = node["type"]
-    if node_type == "changed":
+    kind = node["type"]
+    if kind == "nested":
+        indent = " " * (depth * INDENT)
+        children = render(node["children"], depth + 1)
+        return [f"{indent}{key}: {{", *children, f"{indent}}}"]
+    if kind == "changed":
         return [
-            f"  - {key}: {format_value(node['old_value'])}",
-            f"  + {key}: {format_value(node['new_value'])}",
+            make_line(depth, "-", key, node["old_value"]),
+            make_line(depth, "+", key, node["new_value"]),
         ]
-    signs = {"added": "+", "removed": "-", "unchanged": " "}
-    return [f"  {signs[node_type]} {key}: {format_value(node['value'])}"]
+    return [make_line(depth, SIGNS[kind], key, node["value"])]
+
+
+def render(diff, depth):
+    return [line for node in diff for line in render_node(node, depth)]
 
 
 def format_stylish(diff):
-    lines = [line for node in diff for line in format_node(node)]
-    return "\n".join(["{", *lines, "}"])
+    return "\n".join(["{", *render(diff, 1), "}"])

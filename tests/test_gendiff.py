@@ -27,6 +27,33 @@ def test_generate_diff_flat(first, second, expected):
     assert result == read_expected(expected)
 
 
+@pytest.mark.parametrize(
+    ("first", "second"),
+    [
+        ("nested1.json", "nested2.json"),
+        ("nested1.yml", "nested2.yml"),
+        ("nested1.json", "nested2.yml"),
+    ],
+)
+def test_generate_diff_nested(first, second):
+    result = generate_diff(TEST_DATA / first, TEST_DATA / second)
+    assert result == read_expected("expected_nested_stylish.txt")
+
+
+def test_stylish_is_default_format():
+    first = TEST_DATA / "nested1.json"
+    second = TEST_DATA / "nested2.json"
+    assert generate_diff(first, second) == generate_diff(
+        first, second, format_name="stylish"
+    )
+
+
+def test_unknown_format_raises():
+    path = TEST_DATA / "file1.json"
+    with pytest.raises(ValueError):
+        generate_diff(path, path, format_name="unknown")
+
+
 def test_identical_files_have_no_signs():
     result = generate_diff(TEST_DATA / "file1.json", TEST_DATA / "file1.json")
     assert "+" not in result

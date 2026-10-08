@@ -17,12 +17,8 @@ gendiff = "gendiff.scripts.gendiff:main"
 requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
-
 [tool.hatch.build.targets.wheel]
 packages = ["gendiff"]
-
-[tool.poetry.scripts]
-gendiff = "gendiff.scripts.gendiff:main"
 
 [tool.ruff]
 line-length = 80

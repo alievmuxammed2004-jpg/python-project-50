@@ -1,5 +1,4 @@
-build:
-	uv build
-
-package-install:
-	uv tool install --reinstall dist/*.whl
+.venv
+pycache
+.egg-info
+dist
