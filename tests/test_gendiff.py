@@ -71,3 +71,17 @@ def test_null_value_is_printed_as_null(tmp_path):
     first.write_text(json.dumps({"key": None}))
     second.write_text(json.dumps({"key": 1}))
     assert generate_diff(first, second) == "{\n  - key: null\n  + key: 1\n}"
+
+@pytest.mark.parametrize(
+    ("first", "second"),
+    [
+        ("nested1.json", "nested2.json"),
+        ("nested1.yml", "nested2.yml"),
+        ("nested1.json", "nested2.yml"),
+    ],
+)
+def test_generate_diff_plain(first, second):
+    result = generate_diff(
+        TEST_DATA / first, TEST_DATA / second, "plain"
+    )
+    assert result == read_expected("expected_nested_plain.txt")
