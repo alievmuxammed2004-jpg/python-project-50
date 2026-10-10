@@ -4,6 +4,8 @@ from pathlib import Path
 import pytest
 
 from gendiff import generate_diff
+from gendiff.diff import build_diff
+from gendiff.parser import parse_file
 
 TEST_DATA = Path(__file__).parent / "test_data"
 
@@ -85,3 +87,17 @@ def test_generate_diff_plain(first, second):
         TEST_DATA / first, TEST_DATA / second, "plain"
     )
     assert result == read_expected("expected_nested_plain.txt")
+
+@pytest.mark.parametrize(
+    ("first", "second"),
+    [
+        ("nested1.json", "nested2.json"),
+        ("nested1.yml", "nested2.yml"),
+    ],
+)
+def test_generate_diff_json(first, second):
+    path1 = TEST_DATA / first
+    path2 = TEST_DATA / second
+    result = generate_diff(path1, path2, "json")
+    expected = build_diff(parse_file(path1), parse_file(path2))
+    assert json.loads(result) == expected

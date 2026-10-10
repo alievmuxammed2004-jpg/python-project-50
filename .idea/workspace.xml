@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e65bbd7-8990-4aab-954e-1300bdc7d4a6" name="Changes" comment="new file">
-      <change afterPath="$PROJECT_DIR$/tests/test_data/expected_nested_plain.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_data/file2.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_plain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gendiff/formatters/json_formatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_json_formatter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gendiff/formatters/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gendiff/formatters/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_cli.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_data/expected_nested_stylish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_data/expected_nested_stylish.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_gendiff.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_gendiff.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -261,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790866986575</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="new file">
+      <option name="closed" value="true" />
+      <created>1791632246247</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1791632246247</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
