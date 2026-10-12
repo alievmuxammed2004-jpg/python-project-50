@@ -1,4 +1,8 @@
-.venv
-pycache
-.egg-info
-dist
+.venv/
+__pycache__/
+*.egg-info/
+dist/
+.idea/
+.pytest_cache/
+.ruff_cache/
+.coverage/
